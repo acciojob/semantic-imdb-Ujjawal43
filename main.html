@@ -1,16 +1,88 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Favorite Movie</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    nav {
+        background-color: #666;
+        padding: 10px;
+        text-align: center;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    section {
+        padding: 20px;
+        margin: 20px;
+        background-color: #ddd;
+    }
+    aside {
+        padding: 10px;
+        background-color: #ccc;
+        margin: 20px;
+    }
+    footer {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<header>
+    <h1>My Favorite Movie</h1>
+</header>
+
+<nav>
+    <a href="#nav-actor">Actors</a>
+    <a href="#nav-quote">Quotes</a>
+</nav>
+
+<section id="summary">
+    <h2>Summary</h2>
+    <p>This is a brief summary of the plot of my favorite movie.</p>
+</section>
+
+<section id="actor">
+    <h2>Actors</h2>
+    <p>Details about the actors in the movie.</p>
+</section>
+
+<section id="quote">
+    <h2>Quotes</h2>
+    <p>My favorite quote from the movie.</p>
+</section>
+
+<aside>
+    <h2>IMDb Information</h2>
+    <p>IMDb Rating: 9.0</p>
+    <p>Release Date: January 1, 2000</p>
+</aside>
+
+<footer>
+    <p>Produced by: <span>Name of Producer</span></p>
+</footer>
 
 </body>
-
 </html>
